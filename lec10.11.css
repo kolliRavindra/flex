@@ -1,0 +1,126 @@
+.first,.firste,.firster,.firstu,.firsti{
+
+
+    background-color: aqua;
+    color: black;
+    font-size: xx-large;
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+.container1{
+
+    background-color: blue;
+    display: flex;
+}
+
+.container2{
+
+
+    background-color: red;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.container3{
+
+background-color: chartreuse;
+display: flex;
+justify-content: center;
+
+
+}
+
+.container4{
+
+
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.container5{
+
+
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container6{
+
+
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.container7{
+    display: flex;
+    align-items: center;
+    background-color: burlywood;
+    height: 400px;
+}
+
+.krishna{
+    font-size: 40px;
+    font-weight: bold;
+}
+.hare{
+    font-size: 15px;
+    font-weight: 900;
+}
+.container8{
+
+display: flex;
+align-items: baseline;
+
+}
+
+.container9{
+    background-color: chocolate;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.container10{
+    background-color: rgb(213, 51, 6);
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    height: 800px;
+}
+.container11{
+
+    background-color: crimson;
+    display: flex;
+}
+.firste{
+    order: -1;
+}
+.container12{
+    background-color: darkkhaki;
+    display: flex;
+    
+}
+.firster{flex-grow: 2;}
+
+.container13{
+background-color: darkseagreen;
+    display: flex;
+}
+.firstu{
+    flex-shrink: 4;
+    
+}
+.container14{background-color: blue;
+display: flex;
+height: 600px;
+
+}
+.firsti{align-self: flex-end;}
+
+@media (max-width:800px){
+.firster{
+background-color: red;
+
+}
+}
